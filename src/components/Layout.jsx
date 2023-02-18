@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from 'redux/store';
+import { increment, decrement } from '../redux/myValue/Slice';
 
 export const Layout = () => {
   const dispatch = useDispatch();
