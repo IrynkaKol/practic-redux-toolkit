@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 export const myValueSlice = createSlice({
     name: 'myValue',
-    initialState: 10,
+    initialState: 0,
     reducers: {
       increment(state, action) {
         return state + action.payload;

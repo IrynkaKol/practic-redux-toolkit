@@ -2,6 +2,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { logIn } from 'redux/userSlice';
 
+
 export const LoginForm = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -19,5 +20,6 @@ export const LoginForm = () => {
       <br />
       <button type="submit">Log in</button>
     </form>
+    
   );
 };

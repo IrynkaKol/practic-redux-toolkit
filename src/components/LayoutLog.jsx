@@ -5,8 +5,7 @@ export const LayoutLog = () => {
   return (
     <div>
       <AppBar />
-
-      
+     
       <Outlet />
     </div>
   );

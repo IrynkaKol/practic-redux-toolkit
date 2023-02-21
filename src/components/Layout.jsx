@@ -1,4 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
+import { Outlet } from 'react-router-dom';
 import { increment, decrement } from '../redux/myValue/Slice';
 
 
@@ -12,6 +13,7 @@ export const Layout = () => {
       <button onClick={() => dispatch(increment(100))}>Increment</button>
 
       <button onClick={() => dispatch(decrement(100))}>Decrement</button>
+      <Outlet />
     </div>
   );
 };
